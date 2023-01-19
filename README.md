@@ -1,4 +1,4 @@
-# GenePolar
+# mormorSeek
 Pipeline used to identify the phylogenetic position of the parental species of an allotetraploid.
 
 Citation:
