@@ -132,7 +132,7 @@ java -jar /path/to/astral/astral.5.7.8.jar \
 
 You can visualize the output tree using [TreeGraph](http://treegraph.bioinfweb.info) or [FigTree](http://tree.bio.ed.ac.uk/software/Figtree/). The inferred species tree after the first iteration is shown in Fig. 1. The polarized allotetraploid pairs with the clade containing species "3" and "10".
 
-<img src="https://raw.githubusercontent.com/LLN273/GenePolar/tree/main/aux/Fig_1_tutorial.png" width="500" />
+<img src="https://raw.githubusercontent.com/LLN273/GenePolar/main/aux/Fig_1_tutorial.png" width="500" />
 
 Figure 1 | Species tree inferred after the first iteration.
 
