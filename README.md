@@ -6,7 +6,7 @@ Leal J.L., Milesi P., Salojärvi J., Lascoux M. 2022. Phylogenetic Analysis of A
 
 ____
 
-# TUTORIAL
+## TUTORIAL
 
 In this tutorial, we provide a step-by-step guide on how to use genomic polarization [1] to identify the phylogenetic position of the two parental species of an allotetraploid in an iterative process. We provide an example for a phylogeny containing fifteen diploid species and one allotetraploid species.
 
@@ -186,7 +186,7 @@ done
 
 Move the polarized MSAs to a new folder ("Iteration_2") and then repeat steps 4 and 5. The resulting species tree is shown in Figure 2. The polarized allotetraploid now pairs with species "16", sister species to one of the polyploid's parental species.
 
-<img src="https://raw.githubusercontent.com/LLN273/GenePolar/tree/main/aux/Fig_2_tutorial.png" width="500" />
+<img src="https://raw.githubusercontent.com/LLN273/GenePolar/main/aux/Fig_2_tutorial.png" width="500" />
 
 Figure 2 | Species trees inferred after the first two iterations.
 
@@ -205,7 +205,7 @@ The polyploid pairing frequencies after the second iteration are:
 
 During the third iteration, species "16" is used as the reference sequence. In the resulting phylogeny, the allotetraploid pairs with species "10" (Fig. 3), sister species to the second ancient parental species.
 
-<img src="https://raw.githubusercontent.com/LLN273/GenePolar/tree/main/aux/Fig_3_tutorial.png" width="800" />
+<img src="https://raw.githubusercontent.com/LLN273/GenePolar/main/aux/Fig_3_tutorial.png" width="800" />
 
 Figure 3 | Species trees inferred after the first three iterations
 
@@ -225,7 +225,7 @@ The polyploid pairing frequencies after the third iteration are:
 
 During the fourth iteration, species "10" was used as the reference sequence. The polarized allotetraploid pairs again with species "16" (Fig. 4), signaling that the iterative procedure has converged. The analysis indicates that the two species closest to the allopolyploid's ancient parental species are species "10" and "16" (from among those included in the analysis).
 
-<img src="https://raw.githubusercontent.com/LLN273/GenePolar/tree/main/aux/Fig_4_tutorial.png" width="1000" />
+<img src="https://raw.githubusercontent.com/LLN273/GenePolar/main/aux/Fig_4_tutorial.png" width="1000" />
 
 Figure 4 | Species trees inferred after the first four iterations. The location of the first parental species was found after two iterations (near species '16') while convergence is attained by the fourth iteration (iteration 5 would have produced a result similar to that shown for iteration 3).
 
