@@ -1,4 +1,4 @@
-## GenePolar
+# GenePolar
 Pipeline used to identify the phylogenetic position of the parental species of a tetraploid species.
 
 Citation:
