@@ -1,7 +1,7 @@
 # PolyAncestor
 Pipeline used to identify the phylogenetic position of the parental species of an allotetraploid.
 
-Citation:
+Please cite:
 Leal J.L., Milesi P., Salojärvi J., Lascoux M. 2022. Phylogenetic Analysis of Allotetraploid Species Using Polarized Genomic Sequences. *Syst. Biol.* (forthcoming)
 
 ____
