@@ -1,4 +1,4 @@
-# mormorSeek
+# PolyAncestor
 Pipeline used to identify the phylogenetic position of the parental species of an allotetraploid.
 
 Citation:
@@ -14,7 +14,7 @@ It is assumed you are working in a Unix or macOS environment.
 
 ## 1. Software required 
 
-Genomic polarization script, which you can download from our GitHub page [here](https://github.com/LLN273/mormorSeek/blob/main/01s_polarizeTETRA.py).
+Genomic polarization script, which you can download from our GitHub page [here](https://github.com/LLN273/PolyAncestor/blob/main/01s_polarizeTETRA.py).
 
 IQ-TREE2 [2] for performing phylogenetic inference for each locus: [http://www.iqtree.org/](http://www.iqtree.org/)
 
@@ -28,7 +28,7 @@ You also need to have [Python3](https://www.python.org/) and [R](https://www.r-p
 
 We will be using a small dataset that contains multiple sequence alignments (MSAs) for 50 loci that have evolved under moderate levels of incomplete lineage sorting (ILS). Each MSA contains nucleotide sequences for fifteen diploid species and one allotetraploid species ("T-9-14") whose ancient parental species, now extinct, are phylogenetically located near species "10" and "16". Each species included in the MSA, including the allotetraploid, is represented by a single nucleic acid sequence. Heterozygotic sites are expected to be coded according to the IUPAC nomenclature *but the input data does not need to be pre-phased.* It is assumed sequences are aligned.
 
-You can download the test data [here](https://github.com/LLN273/mormorSeek/tree/main/aux/MSA_test_data.zip). 
+You can download the test data [here](https://github.com/LLN273/PolyAncestor/tree/main/aux/MSA_test_data.zip). 
 
 Note: When processing your own data, it is expected that you will have MSAs for hundreds or even thousands of loci. There are many ways to generate MSAs based on a VCF file. We provide some scripts that can be of help [here](https://github.com/LLN273/Genomic_polarization_allotetraploids/tree/main/02_Generate_MSAs).
 If you use our pipeline, notice that we use separate VCF files for each sample, and that we also have separate VCF files for SNPs and indels. Also, it will help if you have an annotated reference genome but this is not strictly necessary. See our paper [1] for a more detailed discussion and suggestions on what to do if you don't have a suitable reference genome.
@@ -132,7 +132,7 @@ java -jar /path/to/astral/astral.5.7.8.jar \
 
 You can visualize the output tree using [TreeGraph](http://treegraph.bioinfweb.info) or [FigTree](http://tree.bio.ed.ac.uk/software/Figtree/). The inferred species tree after the first iteration is shown in Fig. 1. The polarized allotetraploid pairs with the clade containing species "3" and "10".
 
-<img src="https://raw.githubusercontent.com/LLN273/mormorSeek/main/aux/Fig_1_tutorial.png" width="500" />
+<img src="https://github.com/LLN273/PolyAncestor/blob/main/aux/Fig_1_tutorial.png" width="500" />
 
 Figure 1 | Species tree inferred after the first iteration.
 
@@ -186,7 +186,7 @@ done
 
 Move the polarized MSAs to a new folder ("Iteration_2") and then repeat steps 4 and 5. The resulting species tree is shown in Figure 2. The polarized allotetraploid now pairs with species "16", sister species to one of the polyploid's parental species.
 
-<img src="https://raw.githubusercontent.com/LLN273/mormorSeek/main/aux/Fig_2_tutorial.png" width="500" />
+<img src="https://github.com/LLN273/PolyAncestor/blob/main/aux/Fig_2_tutorial.png" width="500" />
 
 Figure 2 | Species trees inferred after the first two iterations.
 
@@ -205,7 +205,7 @@ The polyploid pairing frequencies after the second iteration are:
 
 During the third iteration, species "16" is used as the reference sequence. In the resulting phylogeny, the allotetraploid pairs with species "10" (Fig. 3), sister species to the second ancient parental species.
 
-<img src="https://raw.githubusercontent.com/LLN273/mormorSeek/main/aux/Fig_3_tutorial.png" width="800" />
+<img src="https://github.com/LLN273/PolyAncestor/blob/main/aux/Fig_3_tutorial.png" width="800" />
 
 Figure 3 | Species trees inferred after the first three iterations
 
@@ -225,7 +225,7 @@ The polyploid pairing frequencies after the third iteration are:
 
 During the fourth iteration, species "10" was used as the reference sequence. The polarized allotetraploid pairs again with species "16" (Fig. 4), signaling that the iterative procedure has converged. The analysis indicates that the two species closest to the allopolyploid's ancient parental species are species "10" and "16" (from among those included in the analysis).
 
-<img src="https://raw.githubusercontent.com/LLN273/mormorSeek/main/aux/Fig_4_tutorial.png" width="1000" />
+<img src="https://github.com/LLN273/PolyAncestor/blob/main/aux/Fig_4_tutorial.png" width="1000" />
 
 Figure 4 | Species trees inferred after the first four iterations. The location of the first parental species was found after two iterations (near species '16') while convergence is attained by the fourth iteration (iteration 5 would have produced a result similar to that shown for iteration 3).
 
