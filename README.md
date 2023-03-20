@@ -2,7 +2,7 @@
 Pipeline used to identify the phylogenetic position of the parental species of an allotetraploid.
 
 Please cite:
-Leal J.L., Milesi P., Salojärvi J., Lascoux M. 2022. Phylogenetic Analysis of Allotetraploid Species Using Polarized Genomic Sequences. *Syst. Biol.* (forthcoming)
+Leal J.L., Milesi P., Salojärvi J., Lascoux M. 2022. Phylogenetic Analysis of Allotetraploid Species Using Polarized Genomic Sequences. *Syst. Biol.*, syad009, [https://doi.org/10.1093/sysbio/syad009](https://doi.org/10.1093/sysbio/syad009)
 
 ____
 
@@ -245,7 +245,7 @@ The polyploid pairing frequencies after the fourth iteration are:
 
 ### References
 
-[1] Leal J.L., Milesi P., Salojärvi J., Lascoux M. 2022. Phylogenetic Analysis of Allotetraploid Species Using Polarized Genomic Sequences. *Syst. Biol.* (forthcoming)
+[1] Leal J.L., Milesi P., Salojärvi J., Lascoux M. 2022. Phylogenetic Analysis of Allotetraploid Species Using Polarized Genomic Sequences. *Syst. Biol.*, syad009, [https://doi.org/10.1093/sysbio/syad009](https://doi.org/10.1093/sysbio/syad009)
 
 [2] Minh B.Q., Schmidt H.A., Chernomor O., Schrempf D., Woodhams M.D., von Haeseler A., Lanfear R. 2020. IQ-TREE 2: new models and efficient methods for phylogenetic inference in the genomic era. *Mol. Biol. Evol.* 37:1530–1534.
 
